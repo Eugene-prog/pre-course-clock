@@ -2,9 +2,8 @@ body {
   background-color: rgb(0, 0, 0);
   color: rgb(54, 255, 47);
   font-family: 'Russo One', sans-serif;
-  font-size: 50px
+  font-size: 50px;
 }
-
 
 button {
   background-color: rgb(54, 255, 47);
@@ -14,15 +13,13 @@ button {
   font-family: 'Russo One', sans-serif;
 }
 
-
 .clockCase {
-  ПОДКЛЮЧАЕМ ФЛЕКСЫ
-  ПО ЦЕНТРУ
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .buttonCase {
-  ПОДКЛЮЧАЕМ ФЛЕКСЫ
-  ПО ЦЕНТРУ
+  display: flex;
+  justify-content: center;
 }
-📋
