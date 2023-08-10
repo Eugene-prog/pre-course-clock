@@ -32,5 +32,5 @@ function updateClock() {
     if (seconds < 10) {
       seconds = '0' + seconds;
     }
-    clock.textContent = hours + ' : ' + minutes + ' : ' + seconds;
+    clock.textContent = hours + ':' + minutes + ':' + seconds;
 }
